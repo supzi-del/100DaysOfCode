@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.netfliximg{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#heading{
+    font-family: Arial;
+    margin-top: 50px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.blue{
+    margin-top: 50px;
+    margin-left: 350px; 
+    width: 130px;
+    height: 132px;
+    background-color: #1F85DE;
+    border: 1px solid #1F85DE;
+    border-radius: 4px;
+    
+}
+
+
+.blue:hover{
+    
+  box-shadow:  0 0 0 3px white inset;
+  
+}
+
+
+.blue #text {
+    
+    margin-left: 43px;
+    margin-top: 150px;
+    font-size: 20px;
+    color: grey;
+    
+}
+
+
+.blue:hover #text{
+    color: white;
+    
+}
+
+
+
+.red{
+    margin-top: -138px;
+    margin-left: 550px; 
+    width: 133px;
+    height: 139px;
+    
+    background-color: #e83039;
+     
+    border-radius: 4px;
+  position:absolute;
+}
+
+
+.red:hover{
+    
+  box-shadow:  0 0 0 3px white inset;
+  
+}
+
+
+
+
+.red #text {
+    margin-left: 30px;
+    margin-top: 153px;
+    font-size: 20px;
+    
+    color: grey;
+    
+}
+
+
+.red:hover #text{
+    
+    color: white;
+    
+}
+
+.yellow{
+    margin-top: -138px;
+    margin-left: 750px; 
+    width: 130px;
+    height: 132px;
+    background-color:  #eac23e;
+    border: 1px solid #eac23e;
+    border-radius: 4px;
+}
+    
+.yellow:hover{
+    
+  box-shadow:  0 0 0 3px white inset;
+  
+}
+
+
+.yellow #text {
+    margin-left: 43px;
+    margin-top: 150px;
+    font-size: 20px;
+    color: grey;
+}
+
+
+.yellow:hover #text{
+    color: white;
+    
+}
+
+
+#bottom {
+    
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+    letter-spacing: 1px;
+    border: 1px solid grey;
+    padding-bottom: 10px;
+    width: 250px;
+    height: 35px;
+    margin-left: 490px;
+    margin-top: 100px;
+    line-height: 5px;
+  cursor:pointer;
+}
+
+
+#bottom:hover{
+    color: white;
+    border: 1px solid white;
+}
+
+
+#abbyimg{
+  margin-top:-2000px;
+  margin-bottom:60px;
+  width:120%;
+  margin-left:-20px;
+}
+
+#bellaimg{
+  margin-top:-2000px;
+  margin-bottom:55px;
+  width:120%;
+  margin-left:-20px;
+}
+
+#chrisimg{
+  margin-top:-2000px;
+  margin-bottom:60px;
+  width:120%;
+  margin-left:-20px;
+}
