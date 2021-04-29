@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<html>
+  <body>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+    
+    
+      <p id="description"><em>Thank you for taking the time to fill out this Programmer's survey form</em></p>
+    
+    
+    <div id="background">
+      <img src="https://images.unsplash.com/photo-1536845549327-f3ad186c51ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" width="100%" height="100%">
+    </div>
+    
+    
+    <div id="container">
+      <form id="survey-form">
+        <label class="labels" id="name-label">Name</label>
+          <input type="text" id="name" required placeholder="Enter your name">
+        
+        <label class="labels" id="email-label">E-mail</label>
+          <input type="email" id="email"  required placeholder="Enter your email">
+        
+       <label class="labels" id="number-label">Age</label>
+          <input type="number" id="number" min="8" max="100" placeholder="Enter your age">
+        
+        
+        <label class="labels" id="role-label">Which option describes your current role?</label>
+        <select name="roles" id="dropdown" placeholder="Select your current role">
+  <option value="Student">Student</option>
+  <option value="saab">Full time job</option>
+  <option value="mercedes">Full time learner</option>
+  <option value="audi">Prefer not to say</option>
+</select>
+        
+        
+        <label class="labels" id="areyou-label">Are you a programmer?</label>
+          <div class="radios">
+      
+      <label>
+        <input
+          name="user-recommend"
+          value="Yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes</label
+      ><br><br>
+      <label>
+        <input
+          name="user-recommend"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+        
+        
+      <div class="checkboxes">
+            <label for="lang-label" class="labels">What languages do you work on? </label>
+            <div class="some">
+              <input type="checkbox" name="lang" value="1">
+              <label for="1">HTML</label><br>
+              <input type="checkbox" name="lang" value="2">
+              <label for="2">Javascript</label><br>
+              <input type="checkbox" name="lang" value="3">
+              <label for="3">Java</label><br>
+              <input type="checkbox" name="lang" value="4">
+              <label for="4">Python</label><br>
+              <input type="checkbox" name="lang" value="5">
+              <label for="5">Ruby</label><br>
+              <input type="checkbox" name="lang" value="6">
+              <label for="6">C++</label><br>
+              <input type="checkbox" name="lang" value="7">
+              <label for="7">C</label><br>
+              <input type="checkbox" name="lang" value="8">
+              <label for="8">Basic</label><br>
+              <input type="checkbox" name="lang" value="9">
+              <label for="9">C#</label>
+            </div>
+        </div>
+        
+        
+        <div id="text"><label id="field-label" class="labels">Would you like to add something?</label></div>
+          <textarea id="field-input" name="field" rows="8" cols="30" placeholder="Enter your comment here"></textarea>
+        
+          <button id="submit" type="submit" name="button">Submit</button>
+         
+       
+        
+      </form>
+      
+    </div>
+   
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
