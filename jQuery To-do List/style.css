@@ -1,0 +1,119 @@
+#container {
+            width: 700px;
+            height: 450px auto;
+            margin: 70px auto;
+            border: 2px solid #D8C3E0;
+            border-radius: 20px;
+            padding: 0px 40px 40px 40px;
+           max-height: 600px;
+           z-index: 1;
+           
+
+            
+        }
+
+        
+
+        #container {
+            background-color: #D8C3E0;
+           
+        }
+
+        #projects {
+            background-color: #BCE5E2;
+           
+           
+           max-height: 300px;
+            
+
+            padding-right: 0%;
+            
+            
+            
+            
+
+        }
+
+        #projects .ui-tabs-panel {
+    height: 200px;
+    overflow: auto;
+    
+    
+    
+}
+
+        
+
+
+
+
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            font-size: 35px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+            
+
+        ol li{
+            border: 1px dotted black;
+            border-radius: 30px;
+            cursor: pointer;
+            padding: 5px;
+            margin-bottom:5px;
+            
+            
+            
+        }
+
+        #projects ol{
+            
+
+            top: 10px;
+        }
+
+        
+
+        ol li:hover{
+            background-color:#E0D8C3;
+        }
+
+        #btnAddProject{
+            margin-left: 570px;
+            margin-bottom: 20px;
+           
+            padding: 10px;
+        }
+
+        #btnAddTask{
+            margin-left: 590px;
+            margin-bottom: 20px;
+            top: 25px;
+           
+            padding: 10px;
+        }
+
+        #project-dialog{
+            background-color: #D8C3E0;
+            color : #fff
+        }
+
+        .ui-icon-close{
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+
+        #btnAddProject:active{
+            background: #BCE5E2;
+        }
+         
+        #btnAddTask:active{
+            background: #BCE5E2;
+        }
+
+        #projects a{
+            background: #D8C3E0;
+        }

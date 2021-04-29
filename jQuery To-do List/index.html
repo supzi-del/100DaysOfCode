@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - to do list</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title>Todo list</title>
+    <link rel="stylesheet" href=" http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" type="text/css" media="all" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+  <body>
+    <div id="container">
+        <h2>To-Do List!</h2>
+        <button id="btnAddProject">Add Project</button>
+        
+
+        <div id="projects">
+            <ul id="main">
+                <li><a href="#personal">Personal</a><span class="ui-icon ui-icon-close"></span></li>
+                <li><a href="#work">Work</a><span class="ui-icon ui-icon-close"></span></li>
+            </ul>
+            <ol id="personal">
+                <li><input type="checkbox">Call electrician</li>
+                <li><input type="checkbox">Do laundry</li>
+            </ol>
+            <ol id="work">
+                <li><input type="checkbox">Project delivery</li>
+                <li><input type="checkbox">Attend call at 2</li>
+            </ol>
+        </div>
+        <!--projects-->
+        
+        <div id="task-dialog" title="Add a task" style="display: none;">
+            <label for="new-task">Task Name:</label><input id="new-task" type="text"/>
+        </div>
+
+
+
+
+        <button id="btnAddTask">Add Task</button>
+        <div id="project-dialog" title="Add a project" style="display: none;">
+            <label for="new-project">Project Name:</label><input id="new-project" type="text"/>
+        </div>
+
+        
+    </div>
+    <!--container-->
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
