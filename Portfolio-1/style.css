@@ -1,0 +1,195 @@
+html{
+  scroll-behavior: smooth;
+  font-family:Arial;
+}
+
+
+li{
+ list-style-type:none;
+}
+
+a{
+   text-decoration:none;
+  color:black;
+}
+
+
+h1{
+  margin-top:100px;
+  margin-left:-90px;
+  font-size:60px;
+  color:#fff;
+  font-family:Arial;
+  
+}
+
+#welcome-section h2{
+  margin-top:-20px;
+   margin-left:-100px;
+  color:#fff;
+  animation:type 3s steps(16) infinite alternate,blinkCursor 500ms steps(16) infinite normal;
+  font-family:consolas;
+  border-right:4px solid white;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+@keyframes type{
+  0%{
+    width:0ch;
+    color:white;
+  }
+  
+  100%{
+    width:16ch;
+    color:purple;
+  }
+  
+  
+}
+
+
+@keyframes blinkCursor{
+  from{
+    border-right-color:white;
+  }
+  to{
+    border-right-color:transparent;
+  }
+}
+
+#navbar{
+   display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+   left: 0;
+  width: 100%;
+  background-color:#eaccff;
+  box-sizing:border-box;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  padding:10px;
+}
+
+.nav-list a{
+  font-size:20px;
+  padding-right:30px;
+  transition:all 0.3s;
+   
+}
+
+.nav-list a:hover{
+ color:grey;
+ 
+}
+
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110%;
+  height: 100vh;
+  background-color: #000;
+  
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  margin-left:-10px;
+}
+
+.projects-section{
+  
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #8b04cf;
+   width: 100%;
+   margin-left:-10px;
+  height:120vh;
+}
+
+.projects-section-header{
+  color:white;
+  text-align:center;
+  margin-top:-60px;
+  margin-left:165px;
+   max-width: 640px;
+  font-size:40px;
+ 
+}
+
+.project-image{
+  height:80%;
+  width:70%;
+  
+  
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin-left:-22px;
+  margin-bottom: 6rem;
+}
+
+.project {
+  
+  padding-top:40px;
+  background: white;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.project-title{
+  font-weight:700;
+  padding-bottom:20px;
+}
+
+
+
+  
+#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  width: 100%;
+  margin-left:-50px;
+  height: 80vh;
+  padding: 0 2rem;
+  background: #000;
+}
+
+#github{
+  padding-top:30px;
+}
+
+#skills{
+  
+  font-size:35px;
+  margin-top:70px;
+  margin-left:-950px;
+}
+
+.logos{
+ margin-left:300px;
+  margin-top:-80px;
+  display:flex;
+  
+}
+
+#csslogo{
+  padding-left:20px;
+}
+
+@media{
+  
+}
