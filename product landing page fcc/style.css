@@ -1,0 +1,197 @@
+body{
+  background-color:black;
+}
+
+#header{
+  border-bottom:1px solid white;
+}
+
+#header-img{
+  margin-top:-80px;
+  padding-left:40px;
+}
+
+ h1{
+  color:#fff;
+  margin-left:17%;
+ margin-top:30px;
+  
+}
+
+header{
+  position:fixed;
+  width:100%;
+  top: 0;
+  left: 0;
+ background-color:black;
+
+  
+}
+
+.nav-link{
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  
+float:right;
+  margin-top:-70px;
+}
+
+#about{
+  margin-right:300px;
+}
+#pricing{
+   margin-right:150px;
+}
+#shop{
+  margin-right:20px;
+}
+
+#about-section h2{
+  color:white;
+  font-size:30px;
+  padding-left:20px;
+}
+
+#img1{
+  margin-left:-70px;
+  display:flex;
+  margin-top:60px;
+}
+
+p{
+  color:white;
+  margin-top:-250px;
+  font-size:20px;
+  margin-right:150px;
+  margin-left:200px;
+}
+
+#video{
+  margin-left:20%;
+}
+
+#pricing-section h2{
+  color:white;
+  font-size:30px;
+  padding-left:20px;
+}
+
+
+#soprano{
+  box-sizing:border-box;
+   width:25%;
+   
+   border:1px solid grey;
+  border-radius:5px;
+   background-color:#C8C8C8;
+   padding:10px;
+}
+
+#soprano h3{
+  text-align:center;
+  background-color:white;
+  padding:20px;
+  margin-top:0;
+}
+#soprano span{
+  margin-left:40%;
+  font-size:30px;
+}
+
+
+#tenor{
+  box-sizing:border-box;
+   width:25%;
+   margin-top:-270px;
+  margin-left:37.5%;
+   border:1px solid grey;
+  border-radius:5px;
+   background-color:#C8C8C8;
+  padding:10px;
+}
+
+#tenor h3{
+  text-align:center;
+  background-color:white;
+  padding:20px;
+  margin-top:0;
+}
+
+#tenor span{
+  margin-left:40%;
+  font-size:30px;
+}
+
+h4{
+  text-align:center;
+}
+
+#tenor-btn{
+  margin-left:33%;
+  padding:10px;
+  background-color:yellow;
+}
+
+#concert{
+  box-sizing:border-box;
+   width:25%;
+   margin-top:-275px;
+  margin-left:75%;
+   border:1px solid grey;
+  border-radius:5px;
+   background-color:#C8C8C8;
+  padding:10px;
+}
+
+#concert h3{
+  text-align:center;
+  background-color:white;
+  padding:20px;
+  margin-top:0;
+}
+
+#concert span{
+  margin-left:40%;
+  font-size:30px;
+}
+
+h5{
+  color:white;
+  font-size:20px;
+  padding-left:70px;
+  margin-left:30%;
+}
+
+#submit{
+  padding:10px;
+  background-color:yellow;
+  display:flex;
+  margin-left:46%;
+  margin-top:20px;
+  
+}
+
+h2{
+  color:white;
+  font-size:30px;
+  padding-left:5px;
+}
+
+
+
+#email{
+  width:40%;
+  margin-left:30%;
+  padding:10px;
+}
+
+#shop-section{
+  border-bottom:1px solid white;
+  padding:30px;
+}
+
+
+@media{
+  
+}
