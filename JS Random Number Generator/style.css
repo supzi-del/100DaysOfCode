@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Courier New';
+  box-sizing:border-box;
+  user-select:none;
+}
+
+html,body{
+  display:flex;
+  height:100%;
+  align-items:center;
+  justify-content:center;
+  background:#f2f2f2;
+}
+
+.inputBox{
+  position: relative;
+ height:400px;
+  
+   background:#FDD5D5;
+  width:450px;
+  padding:20px 30px;
+  border-radius:5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.inputBox h2{
+  font-size:24px;
+  padding-left:15px;
+}
+
+.inputBox #number{
+  position:relative;
+  width:100%;
+  height:45px;
+  border:none;
+  margin:15px 0 20px;
+  
+  background:#fff;
+  
+  
+  border:2px solid lightgrey;
+  padding-left:15px;
+  border-radius:5px;
+  font-size:15px;
+  outline:none;
+   transition:all 0.2s;
+  top:55%;
+}
+
+.inputBox #number:focus{
+  border-color:#97E5D7;
+  box-shadow:inset 0 0 3px #2fd072;
+}
+
+.inputBox #btn{
+  position:relative;
+  color:#fff;
+  cursor:pointer;
+  background:#BA55D3;
+  font-size:20px;
+  padding:10px 15px;
+  border-radius:8px;
+  width:215px;
+  margin-left:23%;
+  top:60%;
+}
+
+ .inputBox #range{
+  position:relative;
+  width:100%;
+  height:45px;
+  border:none;
+  margin:15px 0 20px;
+  
+  background:#fff;
+  
+  
+  border:2px solid lightgrey;
+  padding-left:15px;
+  border-radius:5px;
+  font-size:15px;
+  outline:none;
+   transition:all 0.2s;
+  
+  
+}
+
+.inputBox #range:focus{
+  border-color:#97E5D7;
+  box-shadow:inset 0 0 3px #2fd072;
+}
+
+p{
+  font-weight:700;
+  margin-top:-50px;
+  text-align:center;
+}
