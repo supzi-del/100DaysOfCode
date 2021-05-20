@@ -1,0 +1,257 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+.header {
+  
+  
+  position:relative;
+  text-align:center;
+  
+  background: url(https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+
+   min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+}
+.logo {
+  width:50px;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  
+  margin-top:-1000px;
+  position:relative;
+  width: 100%;
+  height:90%;
+  margin-bottom:-10px; /*Fix for safari gap*/ 
+  min-height:200px;
+  max-height:200px;
+  z-index:99;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+
+
+.aks-404-page{
+/*       background: url("https://i.ibb.co/jf42cqR/noise.jpg");  */
+  animation: animate 0.5s steps(10) infinite;
+     width: 100%;
+    height: 100vh;
+  position: relative;
+ 
+}
+.aks-404-page-box{
+ 
+    width: 100%;
+    height: 50vh;
+/*     background: url(https://github.com/Ahmetaksungur/Vehicle-tracking-with-Opencv/blob/master/iceland.jpg?raw=true); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  opacity:.9;
+  z-index:-99;
+}
+.aks-404-page-content{
+      width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #2f2f2f;
+    position: relative;
+/*     z-index: 10; */
+  user-select: none;
+}
+.aks-404-page-content h1{
+  margin-top:-150px;
+position: relative;
+    font-size: 177px;
+    font-family: Code-Pro-Bold;
+/*     margin-bottom: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
+.aks-404-page-content h3{
+  margin-top:-150px;
+      font-family: Code-Pro-Light;
+    position: relative;
+/*     margin-bottom: 2rem; */
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    letter-spacing: .9px;
+}
+.aks-404-page-btn{
+  color: #d8d8d8;
+    text-decoration: none;
+    padding: 15px 15px;
+/*   margin-top:-100px; */
+    background: #2f2f2f;
+    border-radius: 9999px;
+    font-family: Code-Pro;
+    position: relative;
+    cursor: pointer;
+  transition: all 350ms ease-in-out;
+}
+.aks-404-page-btn:hover{
+      background: #1d1d1d;
+}
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Code-Pro-Black;
+  src: local(
+      "https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Black.otf"
+    ),
+    url(https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Black.otf)
+      format("opentype");
+}
+@font-face {
+  font-family: Code-Pro-Bold;
+  src: local(
+      "https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Bold.otf"
+    ),
+    url(https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Bold.otf)
+      format("opentype");
+}
+@font-face {
+  font-family: Code-Pro-Light;
+  src: local(
+      "https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Light.otf"
+    ),
+    url(https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro-Light.otf)
+      format("opentype");
+}
+@font-face {
+  font-family: Code-Pro;
+  src: local(
+      "https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro.otf"
+    ),
+    url(https://unpkg.com/aks-fonts@1.0.0/Codepro/Code-Pro.otf)
+      format("opentype");
+}
