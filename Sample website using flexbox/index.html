@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by sup</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexBox Nav</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+  
+  <div class="wrapper">
+    
+    <header class="top">
+      <h1><a href="#">TITLE</a></h1>
+    </header>
+
+    <nav class="flex-nav">
+      <a href="#" class="toggleNav">☰ Menu</a>
+      <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="#">Item 4</a></li>
+        <li><a href="#">Item 5</a></li>
+        <li><a href="#">Item 6</a></li>
+        <li class="social">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="social">
+          <a href="#"><i class="fa fa-github"></i></a>
+        </li>
+        <li class="social">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <img src="https://www.w3schools.com/w3css/img_lights.jpg">
+    </section>
+
+    <section class="details">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elita</p>
+      <p>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu</p>
+    </section>
+
+    <section class="signup">
+      <form action="" class="signup">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="submit" value="Sign up" class="submit">
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; Sample</p>
+    </footer>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+
+  </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
