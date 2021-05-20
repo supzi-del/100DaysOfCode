@@ -1,0 +1,32 @@
+body {
+  background: #000;
+  padding-top: 10em;
+  text-align:center;
+  
+}
+.wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  align-content:center;
+}
+
+
+ h1 {
+  color: palevioletred;
+  font-family: monospace;
+  border-right: .15em solid #fff; 
+  white-space: nowrap; 
+  margin: 0 auto; */
+  padding-right:00px;
+  letter-spacing: .15em;
+  animation: blink .5s step-end           infinite alternate;;
+}
+
+
+
+/* The typewriter cursor effect */
+@keyframes blink {
+  50% { border-color: transparent}
+}
