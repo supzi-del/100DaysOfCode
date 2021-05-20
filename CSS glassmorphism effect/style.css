@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+
+body, html {
+  background: url(https://cdn.pixabay.com/photo/2016/09/08/20/52/stars-1655504_1280.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+ 
+}
+
+.chip {
+  padding-top: 15px;
+  padding-left: 8px;
+}
+
+.logo {
+  padding-top: 5px;
+  margin: 5px;
+  float: right;
+}
+
+.digits {
+  text-align: center;
+  font-family: 'B612 Mono', monospace;
+  font-size: 21px;
+  word-spacing: 12px;
+}
+
+.name {
+  float: left;
+  padding-top: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: 'B612 Mono', monospace;
+  font-size: 15px;
+}
+
+.valid-text {
+  margin: 15px;
+  text-transform: uppercase;
+  font-family: 'B612 Mono', monospace;
+  font-size: 10px;
+}
+
+.valid-text d {
+  font-size: 13px;
+}
+
+.centered {
+  position: absolute;
+  
+  transform: translate(-50%, -50%);
+   top:50%;
+  left:50%;
+}
