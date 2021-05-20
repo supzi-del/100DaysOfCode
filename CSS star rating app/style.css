@@ -1,0 +1,51 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+body{
+  background: #9e2a2b;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+input{
+  display: none;
+}
+
+i {
+  transition: all .3s;
+}
+
+i:hover {
+  transform: scale(1.1) rotate(-5deg);
+  cursor: pointer;
+}
+
+.stars :checked ~ label {
+  color: gold;
+}
+
+.rating{
+  background:black;
+  padding:2rem;
+  border-radius:15px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.rating p{
+  padding-bottom:1.2rem;
+}
