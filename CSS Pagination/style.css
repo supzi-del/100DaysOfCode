@@ -1,0 +1,86 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+  background: mistyrose;
+}
+::selection{
+  color: #fff;
+  background: #f23b26;
+}
+.container{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  box-shadow: 0px .5vh 5px 0px rgba(0,0,0,0.25);
+}
+.container .title{
+  font-size: 50px;
+  font-weight: 600;
+}
+.container p{
+  font-size: 19px;
+}
+.pagination{
+  margin: 25px 0 15px 0;
+}
+.pagination,
+.pagination li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagination li{
+  background: #000;
+  list-style: none;
+}
+.pagination li a{
+  text-decoration: none;
+  color: #fdfdfd;
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+  padding-top: 1px;
+  border: 1px solid #fff;
+  border-right-width: 0px;
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.35);
+}
+.pagination li:last-child a{
+  border-right-width: 1px;
+}
+.pagination li a:hover{
+  background: rgba(255,255,255,0.2);
+  border-top-color: rgba(0,0,0,0.35);
+  border-bottom-color: rgba(0,0,0,0.5);
+}
+.pagination li a:focus,
+.pagination li a:active{
+  padding-top: 4px;
+  border-left-width:1px;
+  background: rgba(255,255,255, 0.15);
+  box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,.25);
+}
+.pagination li.icon a{
+  min-width: 120px;
+}
+.pagination li:first-child span{
+  padding-right: 8px;
+}
+.pagination li:last-child span{
+  padding-left: 8px;
+}
