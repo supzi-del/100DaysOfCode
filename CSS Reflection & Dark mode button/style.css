@@ -1,0 +1,64 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  display:grid;
+  height:100%;
+  place-items:center;
+}
+
+.text{
+  padding-bottom:15px;
+  margin-top:-50px;
+  font-size:100px;
+  font-weight:700;
+  font-family:"Montserrat";
+  letter-spacing:5px;
+  color:#000;
+  -webkit-box-reflect: below -60px linear-gradient(transparent, rgba(255,255,255,0.4));
+}
+
+
+main{
+          margin: 5vh 15%;
+        }
+        
+        
+        
+        label{
+            position: absolute;
+            width: 45px;
+            height: 22px;
+            right: 20px;
+            top: 20px;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        label:before{
+            position: absolute;
+            content: '';
+            width:20px;
+            height: 20px;
+            left: 1px;
+            top: 1px;
+            border-radius: 50%;
+            background: #000;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+        label.active:before{
+            left: 24px;
+            background: #fff;
+        }
+        body.night {
+            background: #000;
+            color:#fff;
+        }
+        .night p{
+           color:white;
+        }
